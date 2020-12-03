@@ -1,0 +1,52 @@
+  
+   
+   .pair{
+
+    width: 78%;
+    height: 500px;
+     margin-left:160px; 
+    margin-top:-70px ;
+    /* animation: zoominoutsinglefeatured 5s forwards;   */
+    }
+   
+    @media (min-width: 300px) and (max-width: 725px) {
+      .pair{ width: 70%;
+    height: 400px;
+     margin-left:100px; 
+    margin-top:110px ;
+    }
+}
+   @keyframes zoominoutsinglefeatured {
+        0% {
+            transform: scale(1,1);
+        }
+        50% {
+            transform: scale(1.2,1.2);
+        }
+        100% {
+            transform: scale(1,1);
+        }
+    }
+
+    .inn{
+        border-radius: 50%;
+     
+        width: 45px;
+        height:45px;
+        display:block;
+         margin-left:90%;
+        margin-top:-66px;
+           -webkit-animation-name: spin;
+            -webkit-animation-duration: 3000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+        
+       }
+       @-webkit-keyframes spin { 
+           from { 
+               -webkit-transform: rotate(0deg); 
+           } to { 
+               -webkit-transform: rotate(360deg); 
+           }
+       }
+

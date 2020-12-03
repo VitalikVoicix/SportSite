@@ -1,0 +1,318 @@
+body{
+    background-color:#37373D;
+    width: 1495px;;
+    
+    }
+    /* .wrapper{
+    width:1400px;
+    height: 700px;
+    background-color:linear-gradient(135deg,blue ,#484848);;
+    border-radius: 15px;
+    margin:20px;
+    } */
+
+    
+    header{
+        margin-top: 50px;
+        font-family: Cuprum, Arial, Helvetica, sans-serif;
+        width:1495px;
+       }
+       .header-menu{
+        position: absolute;
+        left:330px;
+        top:35px
+       }
+       .header-menu ul{
+        list-style: none;
+        z-index: 3;
+        position: absolute;
+       }
+       .header-menu > ul{
+        display: flex;
+        justify-content: center;
+        padding-right:20px;
+       }
+       .header-menu > ul li a{
+        display: block;
+        /* background:#C9C9C9;
+        background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%);  */
+        padding: 15px 30px 25px 40px;
+/* border:2px solid black; */
+        font-size: 20px;
+border-radius:10px;
+margin:1px;
+        color: #454547;
+        color:white;
+        text-decoration: none;
+        text-transform:uppercase;
+        transition: all 0.3s ease;
+       }
+       .header-menu li a:hover{
+        background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); 
+        color: #ffffff;
+        box-shadow: 1px 5px 10px -5px black;
+        transition: all 0.3s ease; 
+       }
+       .header-menu li ul{
+        position: absolute;
+        min-width: 150px;
+        display: none;
+       }
+       .header-menu li:hover > ul{
+        display: block;
+        float:left;
+       }
+    
+    .header{
+    width: 100%;
+    height: 180px;
+    border-radius:10px;
+    /* align-items: stretch; */
+    background: linear-gradient(135deg,#484848 ,blue);
+    box-shadow:
+            0 10px 3px rgba(0,0,0,0.15),  
+            0 15px 0 -5px #eee,
+            0 25px 1px -6px rgba(0,0,0,0.15),   
+            0 35px 0 -15px #eee,  
+            0 40px 1px -9px rgba(0,0,0,0.15);
+    }
+    .logo{
+    width: 180px;
+    border-radius: 40px;
+    position: relative;
+    bottom:-30px;
+    left: 140px;
+    }
+    .lopes{
+        width: 400px;
+        height: 270px;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    .box{
+        margin: 30px;
+        border-radius: 10px;
+    }
+    .main{
+     
+        align-items:center;
+        background: linear-gradient(135deg,#DEDEDF,thistle ,blue);
+        height:810px;
+    }
+    .title{
+        width: 400px;
+        height: 270px;
+        border-radius: 10px;
+         margin: 30px;
+         font-family: Cuprum, Arial, Helvetica, sans-serif;
+    }
+    article{
+    font-size: 27px;
+    width: 700px;
+    height: 220px;
+    border:4px solid white;
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+    font-family: Cuprum, Arial, Helvetica, sans-serif;
+    
+    }
+    span{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    
+    }
+    h1{
+    font-size: 40px;
+    color:#484949;
+    font-family: fantasy;
+    }
+    .story{
+    align-content: center;
+    width: 400px;
+    height: 800px;
+    border-color: blueviolet;
+    }
+    h3{
+    text-align: center;
+    font-size: 25px;
+    
+    }
+    .story div{
+        align-self: center;
+        width: 1450px;
+        height: 50px;
+        border:3px solid thistle ;
+        align-self: stretch;
+        border-radius: 15px;
+        font-size: 20px;
+        color:#484949;
+        padding: 5px;
+        box-shadow:
+            0 6px 8px rgba(0,0,0,0.15),
+            0 10px 0 -5px #eee,
+            0 10px 1px -4px rgba(0,0,0,0.15),
+            0 20px 0 -10px #eee,
+            0 20px 1px -9px rgba(0,0,0,0.15);
+            display: inline-flexbox; 
+            background-color: cornsilk;  
+    } 
+    .story span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .backImage{
+    border-radius: 20px;
+    width: 160px;
+    padding: 25px;
+    float: left;
+    }
+    footer{
+    
+        width: 100%;
+        height: 150px;
+        border-radius:10px;
+        background-color: #1D2E3F;
+        position: relative;
+    }
+     a{
+    font-size: 20px;
+    color: whitesmoke;
+    }
+    
+    li{
+       color:white; 
+    }
+    .pari{
+        position: absolute;
+       left: 940px;
+       border-radius:15px ;
+       bottom: 25px;
+    }
+    .coca{
+    width: 160px;
+    border-radius: 20px;
+    position: absolute;
+    left:630px;
+    bottom: 50px;
+    float:right;
+    }
+    .foot{
+        position: absolute;
+        left:400px;
+        bottom:30px ;
+    }
+    .city{
+        position: absolute;
+        width: 900px;
+        height: 90px;
+        z-index: 1;
+    }
+    .img1{
+        
+        height:180px;
+        width:220px;
+    }
+    .img2{
+      
+        height: 180px;
+        width:220px;
+        
+    }
+    .img3{
+      
+        height: 180px;
+        width: 220px;
+      
+    }
+    .img4{
+       
+        height: 180px;
+        width: 220px;
+        
+    }
+    .img6{
+        border-radius:10px;
+        height: 180px;
+        width: 580px; 
+    }
+    p{
+        font-family: 'Orbitron', sans-serif;   
+    font-size: 40px;
+    position: absolute;
+    top: -35px;
+    left: 560px;
+    color:#DDD6DD;
+    }
+    .pari1{
+position: absolute;
+top:230px;
+border-radius: 5px;
+width:320px ;
+height:800px ; 
+    }
+    .pari2{
+        position: absolute;
+        top:231px;
+        border-radius: 10px;
+        width:334px ;
+        left: 1170px;
+        height:800px ;  
+    }
+    .game{
+        position: absolute;
+        top:231px;
+left:325px ;
+border-radius: 15x;
+    }
+    .story{
+width: 850px;
+height: 620px;
+
+border-radius:10px ;
+border: 3px solid gray;
+position: absolute;
+left: 330px;
+top:410px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+overflow:scroll;
+background: linear-gradient(135deg,white, #E3E3E3,#1F2F3F );
+animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+
+
+.play{
+    position: absolute;
+    left: 760px;
+    top:530px;
+    border-radius:20px ;
+    width: 390px;
+height: 400px;
+}
+.shaktar{
+font-size: 10px;
+position: relative;
+
+}
+
+p:hover{
+    color:#00FF00;
+    transition: 0.5s;
+    transform: rotate(360deg);
+}
+a:hover{
+    font-size: 35px;
+}
+.burger{
+    opacity: 0;
+    width: 70px;
+    position: absolute;
+    top:55px
+ }
